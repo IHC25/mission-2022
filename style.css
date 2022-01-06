@@ -7,6 +7,11 @@ h1 {
   font-weight: 600;
   margin: 0;
 }
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+}
 .flexible-container {
   display: flex;
   margin-left: 10%;
@@ -59,12 +64,6 @@ h1 {
   text-align: justify;
   width: 300px;
 }
-.circle-shape {
-  background-image: url(images/shapes/shape-1.png);
-  background-position: left;
-  background-size: 25%;
-  background-repeat: no-repeat;
-}
 
 #stay-focused-margin {
   margin-top: 10%;
@@ -72,6 +71,7 @@ h1 {
 
 #my-mission {
   text-align: center;
+  margin-bottom: 3%;
 }
 
 #mission {
@@ -91,4 +91,22 @@ h1 {
 #without-limits-div p {
   margin-top: 5%;
   margin-bottom: 5%;
+}
+#without-limits-img {
+  background-image: url(images/shapes/shape-1.png);
+  background-position: left;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+#global-community-div {
+  margin-top: 10%;
+}
+#global-community-img {
+  background-image: url(images/shapes/shape-1.png);
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  width: 30%;
+  padding: 5%;
 }
