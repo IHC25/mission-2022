@@ -42,6 +42,10 @@ h2 {
 .heading-color {
   color: orange;
 }
+.header-align {
+  text-align: center;
+  margin-bottom: 3%;
+}
 .button-style {
   text-decoration: none;
   background-image: linear-gradient(#ff5733, #ff5733);
@@ -67,11 +71,6 @@ h2 {
 
 #stay-focused-margin {
   margin-top: 10%;
-}
-
-#my-mission {
-  text-align: center;
-  margin-bottom: 3%;
 }
 
 #mission {
@@ -109,4 +108,13 @@ h2 {
   background-repeat: no-repeat;
   width: 30%;
   padding: 5%;
+}
+#footer {
+  padding: 2%;
+  background-color: black;
+  color: white;
+}
+#footer footer {
+  font-weight: 200;
+  color: rgb(150, 148, 148);
 }
