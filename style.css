@@ -109,6 +109,14 @@ h2 {
   width: 30%;
   padding: 5%;
 }
+#about-me-div {
+  padding: 5%;
+  background-image: url(images/shapes/shape-6.png);
+  background-repeat: no-repeat;
+}
+#about-me-div img {
+  width: 30%;
+}
 #footer {
   padding: 2%;
   background-color: black;
