@@ -3,23 +3,23 @@ body {
   margin: 0;
 }
 h1 {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 600;
   margin: 0;
 }
 .flexible-container {
   display: flex;
-  margin-top: 5%;
-  margin-left: 12%;
+  margin-top: 2%;
+  margin-left: 15%;
   margin-bottom: 5%;
+  margin-right: 5%;
 }
 .width-measurement {
   width: 50%;
-  margin: 20px;
 }
 .width-measurement img {
-  width: 50%;
-  padding: auto;
+  width: 60%;
+  padding: 5%;
 }
 .width-measurement p {
   margin-top: 10%;
@@ -37,8 +37,40 @@ h1 {
 .button-style {
   text-decoration: none;
   background-image: linear-gradient(#ff5733, #ff5733);
-  color: #ffffff;
+  color: white;
   padding: 10px 40px;
   border-radius: 5px;
   font-weight: 700px;
+}
+.my-mission-style {
+  width: 27%;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 4%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.my-mission-style img {
+  width: 40%;
+}
+.my-mission-style p {
+  text-align: justify;
+  width: 300px;
+}
+
+#stay-focused-margin {
+  margin-top: 10%;
+}
+
+#my-mission {
+  text-align: center;
+}
+
+#mission {
+  background-color: rgb(233, 244, 248);
+}
+#vision {
+  background-color: rgb(253, 235, 241);
+}
+#goals {
+  background-color: rgb(235, 250, 250);
 }
